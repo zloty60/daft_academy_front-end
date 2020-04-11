@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d -docs"
   },
   "author": "Przemek",
   "license": "ISC",
@@ -17,6 +18,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.2",
     "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^4.2.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
