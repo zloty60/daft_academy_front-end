@@ -1,0 +1,10 @@
+.hero {
+  height: 523px;
+  background: url("/src/assets/images/layer-588.png");
+  text-align: center;
+
+  &__img {
+    margin-top: 196px;
+    object-fit: contain;
+  }
+}

@@ -1,5 +1,6 @@
-@import "~bootstrap/scss/bootstrap"; // ~ node_module
+@import "~bootstrap/scss/bootstrap-reboot.scss";
+@import "~bootstrap/scss/bootstrap-grid"; // ~ node_module
 
-body {
-  background-color: blue;
-}
+@import "./base/base";
+@import "./layout/navbar";
+@import "./layout/hero";
