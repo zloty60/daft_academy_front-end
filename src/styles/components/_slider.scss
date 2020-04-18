@@ -1,0 +1,15 @@
+.slider {
+  background-color: $slider-bg-color;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+// ustawienia dla biblioteki swiper
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  flex-shrink: 1;
+}
