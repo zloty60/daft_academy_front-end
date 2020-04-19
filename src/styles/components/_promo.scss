@@ -1,0 +1,17 @@
+.promo {
+  height: 282px;
+  background-color: #ececec;
+  padding: 30px;
+  &--big {
+    height: 398px;
+  }
+  &--small {
+    height: 245px;
+  }
+  &__link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #151515;
+    text-transform: capitalize;
+  }
+}
