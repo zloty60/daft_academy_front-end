@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 40px;
+  margin-bottom: 19px;
+  &__icon {
+    &--marign {
+      margin-right: 30px;
+    }
+  }
+  &__icons-list {
+    margin-bottom: 34px;
+  }
+  &__links-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+  &__link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #151515;
+  }
+  &__options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  &__copyright {
+    font-size: 13px;
+    font-weight: 500;
+    color: #151515;
+    margin-top: 21px;
+    margin-bottom: 23px;
+  }
+  &__select {
+    border: none;
+    font-size: 13px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  &__select-label {
+    margin-bottom: 0;
+    color: #858585;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
