@@ -1,3 +1,13 @@
 .text-center {
   text-align: center;
 }
+
+.divider {
+  &::after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: #ececec;
+  }
+}
