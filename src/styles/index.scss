@@ -1,9 +1,14 @@
 @import "~bootstrap/scss/bootstrap-reboot.scss";
-@import "~bootstrap/scss/bootstrap-grid"; // ~ node_module
+@import "~bootstrap/scss/bootstrap-grid"; // ~ node_modules
 @import "~swiper/css/swiper.min.css";
 
 @import "./utils/variables";
 @import "./base/base";
+@import "./utils/helpers";
 @import "./layout/navbar";
 @import "./layout/hero";
 @import "./components/slider";
+@import "./components/headline";
+@import "./layout/products";
+@import "./components/product-card";
+@import "./components/button";

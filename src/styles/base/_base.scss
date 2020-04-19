@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Red Hat Dispaly";
+  src: url("/../assets/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf");
+}
+
+body {
+  font-family: "Red Hat Display", Arial;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;
