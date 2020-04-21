@@ -11,3 +11,9 @@
     background-color: #ececec;
   }
 }
+
+.full-height {
+  @include breakPoint(xl) {
+    height: 100% !important;
+  }
+}

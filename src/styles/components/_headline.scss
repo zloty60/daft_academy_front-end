@@ -6,4 +6,15 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  &--large {
+    @include breakPoint(md) {
+      font-size: 32px;
+    }
+    @include breakPoint(lg) {
+      font-size: 40px;
+    }
+    @include breakPoint(lg) {
+      font-size: 45px;
+    }
+  }
 }

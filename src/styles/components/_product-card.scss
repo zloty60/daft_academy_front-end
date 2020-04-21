@@ -3,6 +3,9 @@
     background-color: #f8f8f8;
     height: 208px;
     margin-bottom: 25px;
+    @include breakPoint(lg) {
+      height: 390px;
+    }
   }
   &__name {
     font-size: 13px;

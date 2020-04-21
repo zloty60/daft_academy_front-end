@@ -2,11 +2,20 @@
   height: 282px;
   background-color: #ececec;
   padding: 30px;
+  @include breakPoint(xl) {
+    height: 310px;
+  }
   &--big {
     height: 398px;
+    @include breakPoint(xl) {
+      height: 630px;
+    }
   }
   &--small {
     height: 245px;
+    @include breakPoint(xl) {
+      height: 310px;
+    }
   }
   &__link {
     font-size: 13px;

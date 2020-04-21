@@ -5,18 +5,44 @@
   width: 100%;
   &__list {
     display: flex;
+    align-items: center;
+    @include breakPoint(lg) {
+      justify-content: space-between;
+      position: relative;
+    }
   }
 
   &__menu-btn {
     margin-right: 23px;
+    @include breakPoint(lg) {
+      display: none;
+    }
   }
   &__logo {
     flex-grow: 1;
+    @include breakPoint(lg) {
+      flex-grow: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   &__people-icon {
     margin-right: 20px;
   }
   &__bag-icon {
     margin-right: 4px;
+  }
+  &__desktop-link {
+    display: none;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    @include breakPoint(lg) {
+      display: block;
+    }
+    a {
+      color: #151515;
+    }
   }
 }

@@ -1,16 +1,33 @@
 .products {
   padding-top: 63px;
-
+  @include breakPoint(md) {
+    padding-top: 83px;
+  }
+  @include breakPoint(lg) {
+    padding-top: 109px;
+  }
   &__headline {
     margin-bottom: 59px;
+    @include breakPoint(md) {
+      margin-bottom: 83px;
+    }
+    @include breakPoint(lg) {
+      margin-bottom: 109px;
+    }
   }
 
   &__product-card {
     margin-bottom: 30px;
+    @include breakPoint(lg) {
+      margin-bottom: 82px;
+    }
   }
   &__button {
     margin-top: 50px;
     margin-bottom: 50px;
+    @include breakPoint(lg) {
+      margin-bottom: 100px;
+    }
   }
   &__promo {
     margin-bottom: 10px;

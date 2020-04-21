@@ -1,9 +1,13 @@
 .hero {
   height: 523px;
-  background: url("/src/assets/images/layer-588.png");
+  background-color: #d7d7d7;
   text-align: center;
+  @include breakPoint(sm) {
+    height: 550px;
+  }
 
   &__img {
+    display: none;
     margin-top: 196px;
     object-fit: contain;
   }
