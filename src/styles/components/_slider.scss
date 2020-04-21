@@ -1,4 +1,5 @@
 .slider {
+  position: relative;
   background-color: $slider-bg-color;
   padding-top: 50px;
   padding-bottom: 70px;
@@ -12,4 +13,18 @@
 
 .swiper-slide {
   flex-shrink: 1;
+}
+
+.swiper-button-next {
+  display: none;
+  // @include breakPoint(xxl) {
+  //   display: block;
+  // }
+}
+
+.swiper-button-prev {
+  display: none;
+  // @include breakPoint(xxl) {
+  //   display: block;
+  // }
 }
