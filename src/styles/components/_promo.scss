@@ -20,7 +20,10 @@
   &__link {
     font-size: 13px;
     font-weight: 500;
-    color: #151515;
+    color: $primary-font-color;
     text-transform: capitalize;
+    &:hover {
+      color: $primary-font-color;
+    }
   }
 }

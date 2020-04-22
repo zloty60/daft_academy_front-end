@@ -36,13 +36,12 @@
   &__desktop-link {
     display: none;
     margin-right: 25px;
-    font-weight: 500;
-    font-size: 15px;
+    @extend .basic-typograpy-setup;
     @include breakPoint(lg) {
       display: block;
     }
     a {
-      color: #151515;
+      color: $primary-font-color;
     }
   }
 }

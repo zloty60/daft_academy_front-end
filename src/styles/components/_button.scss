@@ -1,13 +1,13 @@
 .button {
-  background-color: transparent;
+  @extend .clear-btn;
   font-size: 13px;
-  color: #151515;
+  color: $primary-font-color;
   padding: 18px 30px;
-  border: 2px solid #151515;
+  border: 2px solid $primary-font-color;
   text-transform: capitalize;
   font-weight: 500;
   &:hover {
-    background-color: #151515;
+    background-color: $primary-font-color;
     color: #ffffff;
     transition: background-color 0.4s, color 0.4s;
   }

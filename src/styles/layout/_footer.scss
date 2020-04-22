@@ -20,7 +20,10 @@
   &__link {
     font-size: 12px;
     font-weight: bold;
-    color: #151515;
+    color: $primary-font-color;
+    &:hover {
+      color: $primary-font-color;
+    }
     @include breakPoint(lg) {
       margin-right: 6px;
     }
@@ -36,19 +39,19 @@
   &__copyright {
     font-size: 13px;
     font-weight: 500;
-    color: #151515;
+    color: $primary-font-color;
     margin-top: 21px;
     margin-bottom: 23px;
   }
   &__select {
     border: none;
     font-size: 13px;
-    color: #151515;
+    color: $primary-font-color;
     text-transform: uppercase;
   }
   &__select-label {
     margin-bottom: 0;
-    color: #858585;
+    color: $extra-secondary-font-color;
     font-size: 13px;
     font-weight: 500;
     text-transform: capitalize;

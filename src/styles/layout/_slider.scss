@@ -3,6 +3,9 @@
   background-color: $slider-bg-color;
   padding-top: 50px;
   padding-bottom: 70px;
+  @include breakPoint(lg) {
+    padding-bottom: 50px;
+  }
 }
 
 // ustawienia dla biblioteki swiper

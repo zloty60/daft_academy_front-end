@@ -8,37 +8,33 @@
     }
   }
   &__name {
+    @extend .basic-typograpy-setup;
     font-size: 13px;
-    font-weight: 500;
     margin-bottom: 8px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: left;
-    color: #454545;
+    color: $secondary-font-color;
   }
   &__price {
+    @extend .basic-typograpy-setup;
     font-weight: bold;
-    color: #151515;
+    color: $primary-font-color;
     font-size: 13px;
   }
   &__btn {
     width: 100%;
-    border: none;
-    background-color: transparent;
+    @extend .clear-btn;
     padding-left: 0;
     text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 13px;
-    color: #151515;
+    color: $primary-font-color;
     font-weight: bold;
     text-transform: uppercase;
   }
   &__speacial {
-    color: #111111;
+    color: $extra-primary-font-color;
     font-size: 10px;
     text-align: left;
     text-transform: uppercase;

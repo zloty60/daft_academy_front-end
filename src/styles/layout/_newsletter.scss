@@ -12,7 +12,7 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
-    color: #151515;
+    color: $primary-font-color;
     text-align: center;
     margin-bottom: 38px;
     @include breakPoint(lg) {
@@ -22,7 +22,7 @@
   &__description {
     font-size: 13px;
     font-weight: 500;
-    color: #454545;
+    color: $secondary-font-color;
     @include breakPoint(lg) {
       font-size: 16px;
     }
@@ -33,14 +33,13 @@
   &__form {
     margin-top: 40px;
     display: flex;
-    border-bottom: 2px solid #858585;
+    border-bottom: 2px solid $primary-font-color;
     padding-bottom: 13px;
   }
 
   &__input {
+    @extend .clear-btn;
     flex-grow: 1;
-    border: none;
-    background-color: transparent;
     font-size: 13px;
     &::placeholder {
       color: rgba(69, 69, 69, 0.5);
@@ -49,7 +48,7 @@
   &__button {
     border: none;
     background-color: transparent;
-    color: #151515;
+    color: $primary-font-color;
     font-size: 13px;
   }
 }

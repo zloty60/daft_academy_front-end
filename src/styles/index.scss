@@ -3,12 +3,13 @@
 @import "~swiper/css/swiper.min.css";
 
 @import "./utils/variables";
+@import "./utils/extends";
 @import "./base/base";
 @import "./utils/breakPoints";
 @import "./utils/helpers";
 @import "./layout/navbar";
 @import "./layout/hero";
-@import "./components/slider";
+@import "./layout/slider";
 @import "./components/headline";
 @import "./layout/products";
 @import "./components/product-card";
