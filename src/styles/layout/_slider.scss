@@ -6,6 +6,42 @@
   @include breakPoint(lg) {
     padding-bottom: 50px;
   }
+  &__card {
+    background-color: #d7d7d7;
+    position: relative;
+    width: 241px;
+    height: 304px;
+    transition: background-color 0.3s;
+    @include breakPoint(lg) {
+      width: 268px;
+      height: 338px;
+    }
+    &:hover {
+      background-color: #6b6b6b;
+    }
+
+    &:hover &-name,
+    &:hover &-price {
+      color: #ffffff;
+    }
+
+    &-name {
+      transition: color 0.3s;
+      @extend .basic-typograpy-setup;
+      color: $secondary-font-color;
+    }
+    &-price {
+      transition: color 0.3s;
+      @extend .basic-typograpy-setup;
+      font-weight: bold;
+      color: $primary-font-color;
+    }
+    &-content-wrapper {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+    }
+  }
 }
 
 // ustawienia dla biblioteki swiper
