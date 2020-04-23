@@ -18,16 +18,31 @@
   flex-shrink: 1;
 }
 
+.swiper-button-common {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #ffffff;
+  &::after {
+    content: none;
+  }
+}
+
 .swiper-button-next {
   display: none;
-  // @include breakPoint(xxl) {
-  //   display: block;
-  // }
+  @extend .clear-btn;
+  @extend .swiper-button-common;
+  @include breakPoint(xxl) {
+    display: block;
+    right: -65px;
+  }
 }
 
 .swiper-button-prev {
   display: none;
-  // @include breakPoint(xxl) {
-  //   display: block;
-  // }
+  @extend .clear-btn;
+  @extend .swiper-button-common;
+  @include breakPoint(xxl) {
+    display: block;
+    left: -65px;
+  }
 }
