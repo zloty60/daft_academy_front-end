@@ -1,5 +1,6 @@
 import "./styles/index.scss";
 import Swiper from "swiper";
+import { setYear } from "./js/app";
 
 const mySwiper = new Swiper(".swiper-container", {
   slidesPerView: "auto",
@@ -15,3 +16,5 @@ const mySwiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+setYear();
