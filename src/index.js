@@ -2,6 +2,7 @@ import "./styles/index.scss";
 import Swiper from "swiper";
 import DynanicYear from "./js/modules/DynamicYear";
 import Product from "./js/modules/Product";
+import ScrollTop from "./js/modules/ScrollTop";
 
 const mySwiper = new Swiper(".swiper-container", {
   slidesPerView: "auto",
@@ -22,6 +23,7 @@ function startJs() {
   window.addEventListener("DOMContentLoaded", (event) => {
     new DynanicYear();
     new Product();
+    new ScrollTop();
   });
 }
 
