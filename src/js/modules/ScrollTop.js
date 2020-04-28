@@ -9,7 +9,7 @@ class ScrollTop {
   events() {
     window.addEventListener(
       "scroll",
-      throttle(() => this.showBtn(), 400)
+      throttle(() => this.showBtn(), 250)
     );
 
     this.scrollBtn.addEventListener("click", () => {
