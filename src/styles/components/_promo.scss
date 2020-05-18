@@ -1,7 +1,27 @@
 .promo {
+  position: relative;
   height: 282px;
-  background-color: #ececec;
-  padding: 30px;
+  background-color: #000000;
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+
+  &__txt-group {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  &__error {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   @include breakPoint(xl) {
     height: 310px;
   }
@@ -20,10 +40,10 @@
   &__link {
     font-size: 13px;
     font-weight: 500;
-    color: $primary-font-color;
+    color: #fff;
     text-transform: capitalize;
     &:hover {
-      color: $primary-font-color;
+      color: #fff;
     }
   }
 }

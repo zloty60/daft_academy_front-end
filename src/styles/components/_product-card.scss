@@ -1,10 +1,11 @@
 .product-card {
   &__img {
-    background-color: #f8f8f8;
-    height: 208px;
+    // background-color: #f8f8f8;
+    // height: 208px;
+    width: 100%;
     margin-bottom: 25px;
     @include breakPoint(lg) {
-      height: 390px;
+      // height: 390px;
     }
   }
   &__name {
@@ -12,6 +13,7 @@
     font-size: 13px;
     margin-bottom: 8px;
     text-align: left;
+    text-transform: capitalize;
     color: $secondary-font-color;
   }
   &__price {

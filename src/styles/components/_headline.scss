@@ -3,6 +3,10 @@
   font-size: 24px;
   color: $primary-font-color;
 
+  &--light {
+    color: #fff;
+  }
+
   &--large {
     @include breakPoint(md) {
       font-size: 32px;

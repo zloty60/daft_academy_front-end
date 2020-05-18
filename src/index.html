@@ -68,78 +68,16 @@
       </section>
     </header>
     <section class="slider">
-      <div class="container position-relative">
+      <div class="slider__spinner" id="slider-spinner-js">
+        <div class="spinner-border" role="status">
+          <span class="sr-only"></span>
+        </div>
+      </div>
+      <div class="container position-relative" id="slider-container-js">
         <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">Seersucker underwire</p>
-                  <span class="slider__card-price">$50.99 - $99.99</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">
-                    Embroidered Indian cotton beach
-                  </p>
-                  <span class="slider__card-price">$49.99 </span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">Cabana oversized sunglasses</p>
-                  <span class="slider__card-price">$65.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">6" stretch eco swim trunk</p>
-                  <span class="slider__card-price">$57.99 </span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">Studded wrap sandals</p>
-                  <span class="slider__card-price">$112.99</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">Seersucker underwire</p>
-                  <span class="slider__card-price">$50.99 - $99.99</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slider__card">
-                <div class="slider__card-content-wrapper">
-                  <p class="slider__card-name">
-                    Embroidered Indian cotton beach
-                  </p>
-                  <span class="slider__card-price">$49.99 </span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-wrapper" id="swiper-wrapper-js"></div>
           <div class="swiper-scrollbar"></div>
         </div>
-        <button class="swiper-button-next">
-          <img src="./assets/icons/kz-long-arrow-right.svg" alt="" />
-        </button>
-        <button class="swiper-button-prev">
-          <img src="./assets/icons/kz-long-arrow-left.svg" alt="" />
-        </button>
       </div>
     </section>
     <section class="products">
@@ -147,134 +85,7 @@
         <h2 class="headline headline--large products__headline text-center">
           New Arrivals
         </h2>
-        <div class="row" id="products-js">
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__speacial">
-                <span>
-                  <img src="./assets/icons/-e-kz-bolt-line.svg" alt="" />
-                </span>
-                new
-              </p>
-              <p class="product-card__name">Eye Mesh Boat Shoes</p>
-              <p class="product-card__price">$220.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__name">Azure Tote</p>
-              <p class="product-card__price">$290.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__speacial">
-                <span>
-                  <img src="./assets/icons/kz-number-one.svg" alt="" />
-                </span>
-                best seller
-              </p>
-              <p class="product-card__name">Backpack with contrasting buckle</p>
-              <p class="product-card__price">$80.00 – $125.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__speacial">
-                <span>
-                  <img src="./assets/icons/kz-number-one.svg" alt="" />
-                </span>
-                best seller
-              </p>
-              <p class="product-card__name">
-                Shirt in organic cotton classic gingham
-              </p>
-              <p class="product-card__price">$59.50</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__speacial">
-                <span>
-                  <img src="./assets/icons/-e-kz-fire.svg" alt="" />
-                </span>
-                hot
-              </p>
-              <p class="product-card__name">Tailored indigo jumpsuit</p>
-              <p class="product-card__price">$128.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__speacial">
-                <span>
-                  <img src="./assets/icons/-e-kz-star-line.svg" alt="" />
-                </span>
-                top rate
-              </p>
-              <p class="product-card__name">
-                Triple stone drop earrings
-              </p>
-              <p class="product-card__price">$49.50</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__name">
-                Backpack with contrasting buckle
-              </p>
-              <p class="product-card__price">$158.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-4 col-xl-3">
-            <div class="product-card products__product-card">
-              <div class="product-card__img"></div>
-              <p class="product-card__name">
-                Cableknit shawl-collar cardigan
-              </p>
-              <p class="product-card__price">$290.00</p>
-              <button class="product-card__btn">
-                <span>Select option</span>
-                <img src="./assets/icons/-e-kz-heart.svg" alt="" />
-              </button>
-            </div>
-          </div>
-        </div>
+        <div class="row" id="products-js"></div>
         <div class="row justify-content-center products__button">
           <button class="button" id="products-btn-js">view all products</button>
         </div>
@@ -285,39 +96,42 @@
         <div class="row">
           <div class="col-xl-6">
             <div class="col-12 col-xl-12 pl-0 pr-0">
-              <div class="promo promo--big products__promo">
-                <p class="headline">
-                  Sleeve denim <br />
-                  mini dress
-                </p>
-                <a href="#" class="promo__link">shop now</a>
+              <div class="promo promo--big products__promo promo-js">
+                <div class="slider__spinner promo__spinner-js">
+                  <div class="spinner-border" role="status">
+                    <span class="sr-only"></span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-xl-6">
             <div class="row">
               <div class="col-12 col-lg-6 col-xl-6 pr-lg-0 pl-xl-0">
-                <div class="promo products__promo">
-                  <p class="headline">
-                    Back to school!
-                  </p>
-                  <a href="#" class="promo__link">shop now</a>
+                <div class="promo products__promo promo-js">
+                  <div class="slider__spinner promo__spinner-js">
+                    <div class="spinner-border" role="status">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-12 col-lg-6 col-xl-6">
-                <div class="promo products__promo">
-                  <p class="headline">
-                    Jewelry for night
-                  </p>
-                  <a href="#" class="promo__link">shop now</a>
+                <div class="promo products__promo promo-js">
+                  <div class="slider__spinner promo__spinner-js">
+                    <div class="spinner-border" role="status">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-12 col-xl-12 pl-xl-0">
-                <div class="promo promo--small products__promo">
-                  <p class="headline">
-                    Sunglasses for you
-                  </p>
-                  <a href="#" class="promo__link">shop now</a>
+                <div class="promo promo--small products__promo promo-js">
+                  <div class="slider__spinner promo__spinner-js">
+                    <div class="spinner-border" role="status">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,33 +3,55 @@
   background-color: $slider-bg-color;
   padding-top: 50px;
   padding-bottom: 70px;
+  min-height: 400px;
+
+  &__spinner {
+    color: #ddd;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__img {
+    height: 350px;
+    position: relative;
+  }
+
+  &__error {
+    color: #ddd;
+    text-align: center;
+  }
+
+  &__txt {
+    background-color: #d4d4d4;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   @include breakPoint(lg) {
     padding-bottom: 50px;
   }
   &__card {
     background-color: #d7d7d7;
     position: relative;
-    width: 241px;
-    height: 304px;
     transition: background-color 0.3s;
-    @include breakPoint(lg) {
-      width: 268px;
-      height: 338px;
-    }
-    &:hover {
-      background-color: #6b6b6b;
-    }
-
-    &:hover &-name,
-    &:hover &-price {
-      color: #ffffff;
-    }
-
     &-name {
       transition: color 0.3s;
       @extend .basic-typograpy-setup;
       color: $secondary-font-color;
+      margin-bottom: 5px;
+      text-transform: capitalize;
+      color: #000;
     }
+
     &-price {
       transition: color 0.3s;
       @extend .basic-typograpy-setup;
@@ -37,9 +59,7 @@
       color: $primary-font-color;
     }
     &-content-wrapper {
-      position: absolute;
-      left: 20px;
-      bottom: 20px;
+      height: 100%;
     }
   }
 }
