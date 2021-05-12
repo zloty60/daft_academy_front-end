@@ -13,7 +13,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "lodash": "^4.17.15",
-    "swiper": "^5.3.7",
+    "swiper": "^6.5.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
